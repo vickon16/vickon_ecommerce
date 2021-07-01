@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./vendors/fontawesome-free-5.14.0-web/css/all.min.css">
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- glide.css -->
+  <link rel="stylesheet" href="./vendors/glide-master/dist/css/glide.core.css">
+
+  <!-- animate css -->
+  <link rel="stylesheet" href="./vendors/animate.css-main/animate.min.css">
+
+  <!-- bx-slider css file -->
+  <link rel="stylesheet" href="./vendors/bxslider-4-4.2.12/dist/jquery.bxslider.css">
+
+  <!-- my style -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  
+  <title>Vickon Shop</title>
+</head>
+<body>
+  <!-- header -->
+
+  <div class="preloader" id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <div class="adverts">
+    <ul class="bxslider">
+      <li>30% off your first purchase</li>
+      <li>Add to Shopping Cart all your purchases</li>
+      <li>Styles For your Ambition</li>
+      <li>Latest!! products available for you</li>
+      <li>Guaranteed(100%) Money back</li>
+      <li>Free Shipping WorldWide</li>
+      <li>Available payment Gateways for easy funding</li>
+    </ul>
+  </div>
+
+  <header class="header" id="home">
+    <nav class="navigation">
+      <div class="nav-center container">
+        <a href="#home" class="main-logo">
+          <h1>VIC<span class="KO">KO</span><span class="N">N</span></h1>
+        </a>
+
+        <div class="nav-menu">
+          <div class="nav-top">
+            <div class="logo">
+              <h1>VIC<span class="KO">KO</span><span class="N">N</span></h1> 
+            </div>
+
+            <div class="close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#shop" class="nav-link scroll-link">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#new" class="nav-link scroll-link">New</a>
+            </li>
+            <li class="nav-item">
+              <a href="#recent" class="nav-link scroll-link">Recent</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link scroll-link">Blog</a>
+            </li>
+          </ul>
+
+          <div class="nav-social-icons">
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-google-plus"></i></span>
+          </div>
+        </div>
+
+        <div class="nav-icons">
+          <span><i class="fas fa-user"></i></span>
+          <span><i class="fas fa-search"></i></span>
+          <span id="shopping-cart"><i class="fas fa-shopping-basket"></i><span id="cart-count">0</span></span>
+        </div>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- end of header -->
+
+  <!-- main -->
+  <main>
+    <!-- hero -->
+  <section class="hero">
+    <div class="glide" id="glide1">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides glide__hero">
+          <li class="glide__slide">
+            <div class="banner">
+              <div class="banner-content">
+                <span>New Inspiration 2021</span>
+                <h1>CLOTHING MADE FOR YOU</h1>
+                <h3>Trending Style Collections for men and women</h3>
+
+                <div class="buttons-group">
+                  <button>Shop women's</button>
+                  <button>Shop men's</button>
+                </div>
+              </div>
+              <img src="./ecommerce-master/images/banner_1.png" class="special_01" alt="">
+            </div>
+          </li>
+
+          <li class="glide__slide">
+            <div class="banner">
+              <div class="banner-content">
+                <span>New Inspiration 2021</span>
+                <h1>CLOTHING MADE FOR YOU</h1>
+                <h3>Trending Style Collections for men and women</h3>
+
+                <div class="buttons-group">
+                  <button>Shop women's</button>
+                  <button>Shop men's</button>
+                </div>
+              </div>
+              <img src="./ecommerce-master/images/banner_2.png" class="special_02" alt="">
+            </div>
+          </li>
+
+          <li class="glide__slide">
+            <div class="banner">
+              <div class="banner-content">
+                <span>New Inspiration 2021</span>
+                <h1>CLOTHING MADE FOR YOU</h1>
+                <h3>Trending Style Collections for men and women</h3>
+
+                <div class="buttons-group">
+                  <button>Shop women's</button>
+                  <button>Shop men's</button>
+                </div>
+              </div>
+              <img src="./ecommerce-master/images/banner_3.png" class="special_03" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- glide arrows -->
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+      </div>
+
+    </div>
+  </section>
+  <!-- end of hero section -->
+
+  <!-- category -->
+  <section class="section category">
+    <h2 class="title">Styling to match your ambition!</h2>
+    <div class="category-center container">
+      <div class="category-box">
+        <img src="./ecommerce-master/images/women_wear.jpg" alt="">
+        <div class="content">
+          <h2>Shop for Women</h2>
+          <span>155 Products.</span>
+          <a href="javascript:void(0)">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="category-box">
+        <img src="./ecommerce-master/images/men_wear.jpg" alt="">
+        <div class="content">
+          <h2>Shop for Men</h2>
+          <span>155 Products.</span>
+          <a href="javascript:void(0)">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="category-box">
+        <img src="./ecommerce-master/images/men_women_wear.jpg" alt="">
+        <div class="content">
+          <h2>Shop for Both Men and Women</h2>
+          <span>155 Products.</span>
+          <a href="javascript:void(0)">Shop Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of category -->
+
+  <!-- sort-category -->
+  <section class="section sort-category">
+    <div class="title-container">
+      <div class="section-titles">
+        <div class="section-title active filter-btn" data-id="trend">
+          <span class="dot"></span>
+          <h1 class="primary-title">Trending Products</h1>
+        </div>
+      </div>
+
+      <div class="section-titles">
+        <div class="section-title filter-btn" data-id="special">
+          <span class="dot"></span>
+          <h1 class="primary-title">Special Products</h1>
+        </div>
+      </div>
+
+      <div class="section-titles">
+        <div class="section-title filter-btn" data-id="featured">
+          <span class="dot"></span>
+          <h1 class="primary-title">Featured Products</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-center container">
+      <div class="product">
+        <div class="product-header">
+          <img src="./ecommerce-master/images/pic1.png" alt="">
+        </div>
+        <div class="product-footer">
+          <h3><span class="casual">Casual</span> Men Shoe</h3>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price"> <h4><sup>$</sup>300</h4> </div>
+          <ul>
+            <li><a href="javascript:void(0)"><i class="far fa-eye"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="far fa-heart"></i></a></li>
+            <li><a href="javascript:void(0)"><i class="fas fa-sync"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of sort-category -->
+
+  <!-- GALLERY -->
+  <section class="gallery container" id="blog">
+
+    <!-- <figure class="gallery-item item-1">
+      <img src="./ecommerce-master/images/grid_2.jpg" alt="" class="gallery-img">
+      <div class="content">
+        <h2>Vickon Popular Products</h2>
+        <a href="javascript:void(0)" class="view-more">View More</a>
+      </div>
+    </figure>
+
+    <figure class="gallery-item item-2">
+      <img src="./ecommerce-master/images/grid_1.jpg" alt="" class="gallery-img">
+      <div class="content">
+        <h2>Winter Collection</h2>
+        <a href="javascript:void(0)" class="view-more">View More</a>
+      </div>
+    </figure>
+
+    <figure class="gallery-item item-3">
+      <img src="./ecommerce-master/images/grid_3.jpg" alt="" class="gallery-img">
+      <div class="content">
+        <h2>Summer Collection</h2>
+        <a href="javascript:void(0)" class="view-more">View More</a>
+      </div>
+    </figure>
+
+    <figure class="gallery-item item-4">
+      <img src="./ecommerce-master/images/grid_4.jpg" alt="" class="gallery-img">
+      <div class="content">
+        <h2>Up to 70% Off Initial Sale</h2>
+        <a href="javascript:void(0)" class="view-more">View More</a>
+      </div>
+    </figure> -->
+
+  </section>
+  <!-- end of gallery -->
+
+  <!-- all product section -->
+  <section class="section" id="shop">
+    <div class="title-container">
+      <div class="section-titles">
+        <div class="section-title active filter-btn">
+          <span class="dot"></span>
+          <h1 class="primary-title">All Products</h1>
+        </div>
+      </div>
+    </div>
+    <div class="shop-center product-center container"></div>
+  </section>
+  <!-- end of all product seciton -->
+
+
+  <section class="section brands container">
+
+    <div class="glide" id="glide2">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_1.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_2.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_3.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_2.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_1.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./ecommerce-master/images/brand_3.png" alt="">
+          </li>
+  </section>
+  <!-- end of brand -->
+
+  <!-- latest products -->
+  <section class="section latest-products" id="new">
+    <div class="title-container">
+      <div class="section-titles">
+        <div class="section-title active filter-btn" data-id="latest">
+          <span class="dot"></span>
+          <h1 class="primary-title">Latest Products</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="latest-center product-center container"></div>
+  </section>
+  <!-- end of latest products -->
+
+  <!-- recent products -->
+
+  <section class="section recent-products" id="recent">
+    <div class="title-container">
+      <div class="section-titles">
+        <div class="section-title active filter-btn" data-id="recent">
+          <span class="dot"></span>
+          <h1 class="primary-title">Recent Products</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="recent-center product-center container"></div>
+  </section>
+
+  <!-- end of reconet products -->
+
+  <!-- facility section -->
+
+  <section class="facility section" id="facility">
+    <div class="facility-container container">
+      <div class="facility-box">
+        <div class="facility-icon">
+          <i class="fas fa-plane"></i>
+        </div>
+        <p>FREE SHIPPING WORLDWIDE</p>
+      </div>
+
+      <div class="facility-box">
+        <div class="facility-icon">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <p>100% MONEY BACK</p>
+      </div>
+
+      <div class="facility-box">
+        <div class="facility-icon">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <p>MANY PAYMENT GATEWAY</p>
+      </div>
+
+      <div class="facility-box">
+        <div class="facility-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <p>24/7 ONLINE SUPPORT</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- end of facility section -->
+
+
+  <!-- popup section -->
+  <div class="popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="popup-left">
+        <div class="popup-img">
+          <img src="./ecommerce-master/images/cat5.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>30%</span> Off</h1>
+          <p>Sign up to our <a href="javascript:void(0)" class="blogletter">Blogletter</a> and save 50% on your next purchase. Legit!!!!.</p>
+
+          <form action="#" class="form">
+            <input type="email" placeholder=" Your Email here..." class="popup-input" >
+            <a href="javascript:void(0)">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of popup section -->
+
+
+    <!-- Imagepopup section -->
+    <div class="image-popup">
+      <div class="image-popup-content">
+      </div>
+    </div>
+    <!-- end of popup section -->
+
+
+    <!-- cartpopup section -->
+    <div class="cart-popup">
+      <div class="cart-popup-content">
+        <div class="cart-popup-close">
+          <i class="fas fa-times"></i>
+        </div>
+
+        <div class="cart-products">
+          <div class="cart-headers">
+            <h2>Images</h2>
+            <h2>Product name</h2>
+            <h2>Prices($)</h2>
+          </div>
+
+          <div class="cart-item-container">
+          </div>
+
+          <div class="cart-result">
+            <button class="clearCart">Clear</button>
+            <h2>Total = $<span class="product-sum">500000</span></h2> 
+          </div>
+          
+
+        </div>
+  
+      </div>
+    </div>
+    <!-- end of popup section -->
+
+
+
+</main>
+<!-- end of main -->
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-container">
+      <div class="footer-center">
+        <h3>EXTRAS</h3>
+        <a href="javascript:void(0)"><i class="fas fa-band-aid"></i> Brands</a>
+        <a href="javascript:void(0)"><i class="fas fa-gifts"></i> Gift Certificates </a>
+        <a href="javascript:void(0)"><i class="fab fa-affiliatetheme"></i> Affiliate </a>
+        <a href="javascript:void(0)"><i class="fas fa-shopping-cart"></i> Specials</a>
+        <a href="javascript:void(0)"><i class="fas fa-map-signs"></i> Site Map </a>
+      </div>
+      <div class="footer-center">
+        <h3>INFORMATION</h3>
+        <a href="javascript:void(0)"><i class="fas fa-address-card"></i> About Us </a>
+        <a href="javascript:void(0)"><i class="fas fa-user-secret"></i> Privacy Policy </a>
+        <a href="javascript:void(0)"><i class="fas fa-vote-yea"></i> Terms & Conditions </a>
+        <a href="javascript:void(0)"><i class="fas fa-phone"></i> Contact Us </a>
+        <a href="javascript:void(0)"><i class="fas fa-map-signs"></i> Site Map </a>
+      </div>
+      <div class="footer-center">
+        <h3>MY ACCOUNT</h3>
+        <a href="javascript:void(0)"><i class="fas fa-user"></i> My Account </a>
+        <a href="javascript:void(0)"><i class="fas fa-shopping-cart"></i> Order History </a>
+        <a href="javascript:void(0)"><i class="fas fa-list"></i> Wish List </a>
+        <a href="javascript:void(0)"><i class="fas fa-envelope-open-text"></i> blogletter </a>
+        <a href="javascript:void(0)"><i class="fas fa-undo-alt"></i> Returns </a>
+      </div>
+      <div class="footer-center">
+        <h3>CONTACT US</h3>
+        <div>
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          42 Dream House, Dreammy street, 7131 Dreamville, USA
+        </div>
+        <div>
+          <span><i class="far fa-envelope"></i></span>
+          company@gmail.com
+        </div>
+        <div>
+          <span><i class="fas fa-phone"></i></span>
+          456-456-4512
+        </div>
+        <div>
+          <span><i class="far fa-paper-plane"></i></span>
+          Dream City, USA
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+
+
+
+
+
+
+  <!-- jquery file -->
+  <script src="./js/jquery-3.5.1.min.js"></script>
+
+  <!-- glide.js -->
+  <script src="./vendors/glide-master/dist/glide.min.js"></script>
+
+  <!-- bx slider js file -->
+  <script src="./vendors/bxslider-4-4.2.12/dist/jquery.bxslider.js"></script>
+  
+  <!-- custom js file -->
+  <script src="./js/main.js"></script>
+  <script src="./js/product.js"></script>
+  <script src="./js/blog.js"></script>
+  <script src="./js/slider.js"></script>
+  
+</html>

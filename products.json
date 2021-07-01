@@ -1,0 +1,165 @@
+{
+  "products": [
+    {
+      "title": "Men Shoe",
+      "price": "1100.99",
+      "image": "./ecommerce-master/images/pic1.png",
+      "category": "featured",
+      "h1":  "Get <span>30%</span> Discount for Men Shoe",
+      "paragraph": "A Nice Blue snickers for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Women Shoe",
+      "price": "2550.99",
+      "image": "./ecommerce-master/images/pic2.png",
+      "category": "trend",
+      "h1":  "Get <span>30%</span> Discount for Women Shoe",
+      "paragraph": "A Nice Pink Heel for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "School Bag",
+      "price": "1320.99",
+      "image": "./ecommerce-master/images/pic3.png",
+      "category": "featured",
+      "h1":  "Get <span>30%</span> Discount for School Bag",
+      "paragraph": "A Yellow Nice School Bag for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Nice T-shirt",
+      "price": "2443.99",
+      "image": "./ecommerce-master/images/pic4.png",
+      "category": "trend",
+      "h1":  "Get <span>30%</span> Discount for T-shirt",
+      "paragraph": "A Nice Black T-shirt for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "School bag",
+      "price": "2224.99",
+      "image": "./ecommerce-master/images/pic5.png",
+      "category": "featured",
+      "h1":  "Get <span>30%</span> Discount for Green School Bag",
+      "paragraph": "A Nice Green School Bag for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Men Shoe",
+      "price": "1555.99",
+      "image": "./ecommerce-master/images/pic6.png",
+      "category": "recent",
+      "h1":  "Get <span>30%</span> Discount for Men Shoe",
+      "paragraph": "A Nice Red snickers for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "School bag",
+      "price": "2300.99",
+      "image": "./ecommerce-master/images/pic7.png",
+      "category": "latest",
+      "h1":  "Get <span>30%</span> Discount for School Bag",
+      "paragraph": "A Nice Red School Bag for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Canvas",
+      "price": "1100.99",
+      "image": "./ecommerce-master/images/pic8.png",
+      "category": "recent",
+      "h1":  "Get <span>30%</span> Discount for Canvas",
+      "paragraph": "A Nice White and Red Canvas for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Men Shoe",
+      "price": "4422.99",
+      "image": "./ecommerce-master/images/pic9.png",
+      "category": "latest",
+      "h1":  "Get <span>30%</span> Discount for Men Shoe",
+      "paragraph": "A Nice Blue Shoe for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "School bag",
+      "price": "880.99",
+      "image": "./ecommerce-master/images/pic10.png",
+      "category": "special",
+      "h1":  "Get <span>30%</span> Discount for School bag",
+      "paragraph": "A Nice Blue School Bag for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Canvas",
+      "price": "2456.99",
+      "image": "./ecommerce-master/images/pic11.png",
+      "category": "special",
+      "h1":  "Get <span>30%</span> Discount for Men canvas",
+      "paragraph": "A Nice Blue Canvas for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "School bag",
+      "price": "1089.99",
+      "image": "./ecommerce-master/images/pic12.png",
+      "category": "recent",
+      "h1":  "Get <span>30%</span> Discount for School Bag",
+      "paragraph": "A Nice Brown School Bag for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Snickers",
+      "price": "3022.99",
+      "image": "./ecommerce-master/images/pic13.png",
+      "category": "latest",
+      "h1":  "Get <span>30%</span> Discount for Snickers",
+      "paragraph": "A Nice Red snickers for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Snickers",
+      "price": "2088.99",
+      "image": "./ecommerce-master/images/pic14.png",
+      "category": "recent",
+      "h1":  "Get <span>30%</span> Discount for Snickers",
+      "paragraph": "A Nice Snickers for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Canvas",
+      "price": "742.99",
+      "image": "./ecommerce-master/images/pic15.png",
+      "category": "latest",
+      "h1":  "Get <span>30%</span> Discount for Canvas",
+      "paragraph": "A Nice Yellow canvas for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Canvas",
+      "price": "1742.99",
+      "image": "./ecommerce-master/images/pic16.png",
+      "category": "featured",
+      "h1":  "Get <span>30%</span> Discount for Men Canvas",
+      "paragraph": "A Nice Canvas for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Canvas",
+      "price": "240.99",
+      "image": "./ecommerce-master/images/pic17.png",
+      "category": "special",
+      "h1":  "Get <span>30%</span> Discount for High Canvas",
+      "paragraph": "A Nice Red and White for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Snickers",
+      "price": "1000.99",
+      "image": "./ecommerce-master/images/pic19.png",
+      "category": "trend",
+      "h1":  "Get <span>30%</span> Discount for Men Snickers",
+      "paragraph": "A Nice Orange and Yellow Snickersfor your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Women Heels",
+      "price": "888.99",
+      "image": "./ecommerce-master/images/pic20.png",
+      "category": "special",
+      "h1":  "Get <span>30%</span> Discount for Heel",
+      "paragraph": "A Nice Black Heel for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    },
+    {
+      "title": "Women Heels",
+      "price": "477.99",
+      "image": "./ecommerce-master/images/pic21.png",
+      "category": "trend",
+      "h1":  "Get <span>30%</span> Discount for Heel",
+      "paragraph": "A Nice Red Heel for your purchase. Available for you when Click on the button below to purchase. Sign up to our <a href='#' class='blogletter'>Blogletter</a> and save 50% on your next purchase. Legit!!!!."
+    }
+  ]
+
+}

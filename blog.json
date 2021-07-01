@@ -1,0 +1,29 @@
+
+{
+  "blog": [
+    {
+      "item": 1,
+      "image": "./ecommerce-master/images/grid_2.jpg",
+      "h2": "Vickon Popular Products",
+      "paragraph": "We have selected these best things to sell online from top ecommerce stores including AliExpress, DHGate, Amazon, eBay, and Walmart. All these categories have the most sold products online and are currently trending on top. Now if those ecommerce store owners can make profits from these products, why can’t you?"
+    },
+    {
+      "item": 2,
+      "image": "./ecommerce-master/images/grid_1.jpg",
+      "h2": "Winter Collection",
+      "paragraph": "Enhance your winter wardrobe with Vickon's Collection 2021. When it comes to winter season, Vickon is the speciality. Vickon suits last year were a major hit among customers all over Nigeria. This year, even more Vickon's designs are introduced in the collection, offering 60+ trending Vickon dresses. "
+    },
+    {
+      "item": 3,
+      "image": "./ecommerce-master/images/grid_3.jpg",
+      "h2": "Summer Collection",
+      "paragraph": "Enhance your Summer wardrobe with Vickon's Collection 2021. When it comes to Summer season, Vickon is the very speciality. Vickon Summer dresses last year were a major hit among customers all over Nigeria. This year, even more Vickon's designs are introduced in the collection, offering 60+ trending Vickon dresses. "
+    },
+    {
+      "item": 4,
+      "image": "./ecommerce-master/images/grid_4.jpg",
+      "h2": "Up to 70% Off Initial Sale",
+      "paragraph": "We have selected these best things to sell online from top ecommerce stores including AliExpress, DHGate, Amazon, eBay, and Walmart. All these categories are 70% of the initial sale and they are currently trending on top. Purchase your items Now."
+    }
+  ]
+}
